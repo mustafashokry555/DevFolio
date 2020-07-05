@@ -1,0 +1,573 @@
+*
+{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue"
+    ,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+body
+{
+    background-color: #F5F5F5;
+    color: #ffffff;
+}
+.color-1e
+{
+    color: #1e1e1e;
+}
+.color-4e
+{
+    color: #4e4e4e;
+}
+/*/////////////////////////////////*/
+/*header*/
+header
+{
+    background-image: url('../img/intro-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+header .layer
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+header .navbar-dark .navbar-nav .nav-link
+{
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+}
+header .navbar-dark .navbar-nav .nav-link:hover 
+{
+    color: #ffffff;
+}
+header .navbar-dark .navbar-nav .nav-link:hover::before 
+{
+    width: 2.2rem;
+}
+header .navbar-dark .navbar-nav .nav-link::before 
+{
+    content: '';
+    position: absolute;
+    margin-left: 0.5rem;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    height: .125rem;
+    transition: all 500ms ease;
+}
+header .navbar-dark .navbar-brand
+{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+header .intro h1
+{
+    font-size: 4.5rem;
+}
+header .intro p span
+{
+    font-size: 2.5rem;
+    position: relative;
+    
+}
+header .intro p span::after
+{
+    content: "";
+    width: .125rem;
+    animation: animation 10s ease-in-out infinite ;
+}   
+@keyframes animation
+{
+    0%
+    {
+        content: "|";
+    }
+    2%
+    {
+        content: "CEO |";
+    }
+    4%
+    {
+        content: "CEO DevF|";
+    }
+    6%
+    {
+        content: "CEO DevFolio |";
+    }
+    16%
+    {
+        content: "CEO DevFolio |";
+    }
+    17%
+    {
+        content: "CEO DevF|";
+    }
+    18%
+    {
+        content: "CEO |";
+    }
+    19%
+    {
+        content: "|";
+    }
+    21%
+    {
+        content: "Web |";
+    }
+    23%
+    {
+        content: "Web Deve|";
+    }
+    25%
+    {
+        content: "Web Developer |";
+    }
+    35%
+    {
+        content: "Web Developer |";
+    }
+    36%
+    {
+        content: "Web Devel|";
+    }
+    37%
+    {
+        content: "Web De|";
+    }
+    38%
+    {
+        content: "Web Desig|";
+    }
+    39%
+    {
+        content: "Web Designer |";
+    }
+    49%
+    {
+        content: "Web Designer |";
+    }
+    50%
+    {
+        content: "Web Desig|";
+    }
+    51%
+    {
+        content: "Web De|";
+    }
+    52%
+    {
+        content: "Web|";
+    }
+    53%
+    {
+        content: "|";
+    }
+    55%
+    {
+        content: "Fron|";
+    }
+    57%
+    {
+        content: "Frontend|";
+    }
+    59%
+    {
+        content: "Frontend Deve|";
+    }
+    61%
+    {
+        content: "Frontend Developer |";
+    }
+    71%
+    {
+        content: "Frontend Developer |";
+    }
+    72%
+    {
+        content: "Frontend Deve|";
+    }
+    73%
+    {
+        content: "Frontend|";
+    }
+    74%
+    {
+        content: "Fron|";
+    }
+    75%
+    {
+        content: "|";
+    }
+    77%
+    {
+        content: "Grap|";
+    }
+    79%
+    {
+        content: "Graphic |";
+    }
+    81%
+    {
+        contain: "Graphic Desi|";
+    }
+    82%
+    {
+        content: "Graphic Designer|";
+    }
+    95%
+    {
+        content: "Graphic Designer|";
+    }
+    96%
+    {
+        content: "Graphic Desi|";
+    }
+    97%
+    {
+        content: "Graphic |";
+    }
+    98%
+    {
+        content: "Grap|";
+    }
+    99%
+    {
+        content: "|";
+    }
+    100%
+    {
+        content: "|";
+    }
+}
+/*/////////////////////////////*/
+/*about*/
+#about .skill .progress
+{
+    background-color: #cde1f8;
+    margin: .5rem 0 1.2rem 0;
+    height: .8rem;
+}
+#about .shadow
+{
+    background-color: #ffffff;
+}
+#about p
+{
+     margin-bottom: 1rem;
+}
+#about .shadow .img-skill p
+{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+#about .shadow .about-hp h2
+{
+    font-size: 2rem;
+    position: relative;
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+#about .shadow .about-hp h2::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 6.25rem;
+    background-color: #0078ff;
+}
+#about .shadow .about-hp p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+/*/////////////////////////////////////////*/
+/*services*/
+#services .serv-hp::after ,#work .work-hp::after,#blog .blog-hp::after
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    width: 4%;
+    height: 5px;
+    background-color: #0078ff;
+}
+#services .serv-hp h2 ,#work .work-hp h2,#blog .blog-hp h2
+{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#services .row .card
+{
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+#services .row .card span
+{
+    transition: all 500ms ease;
+    font-size: 3rem;
+    color: #1e1e1e;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #0078ff;
+}
+#services .row .card span:hover
+{
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+#services .row .card .service-content h3
+{
+    font-size: 1.4rem;
+    padding: .4rem 0;
+    font-weight: 500;
+}
+/*////////////////////////////////////////*/
+/*titles*/
+#titles
+{
+    background-image: url("../img/counters-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);    
+    }
+#titles .layer
+{
+    background-color: rgba(0, 120, 255,0.7);
+}
+#titles .layer .title  span
+{
+    height: 60px;
+    font-size: 2rem;
+    width: 60px;
+    box-shadow: 0 0 0 10px #cde1f8;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+
+}
+#titles .layer .title  h4
+{
+    font-size: 2rem;
+}
+#titles .layer .title  p
+{
+    font-size: 1rem;    
+}
+ /*///////////////////////////////////////*/
+ /*work*/
+#work .card .img
+{
+    overflow: hidden;
+}
+#work .card .img img
+{
+    transition: all 1s ;
+}
+#work .row .card:hover img
+{
+    transform: scale(1.3);
+}
+#work .row .shadow .work-content 
+{
+    padding: 2rem 3% 1rem 4%;
+    font-size: 0.8rem;  
+} 
+#work .row .shadow .work-content .row h3
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+#work .row .shadow .work-content
+{
+    color: #0078ff;
+}
+#work .row .shadow .work-content .row p span
+{
+    color: #0078ff;
+}
+#work .row .shadow .work-content .row .col-sm-4 span
+{
+    display: flex;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: #0078ff 1.25px solid;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+/*/////////////////////////////////////////*/
+/*testimonial*/
+#testimonial
+{
+    background-image: url("../img/overlay-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);   
+}
+#testimonial .layer
+{
+    background-color: rgba(0, 120, 255,0.7);
+}
+#testimonial .carousel-inner h4
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+#testimonial .carousel-inner p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+
+}
+#testimonial .carousel-inner span 
+{
+    font-size: 2rem;
+    color: #0078ff;
+    background-color: #fff;
+    width: 52px;
+    height: 52px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+#testimonial .layer ol li
+{
+    height: 7px;
+    width: 20px;
+}
+/*///////////////////////////////////////*/
+/*blog*/
+#blog .card .category
+{
+    position: absolute;
+    top:-.5rem;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+#blog .card .category span
+{
+    background-color: #0078ff;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+#blog .card-deck h5,#blog .card-deck .card-footer .color-1e
+{
+    transition: color 0.5s ease-in-out;
+}
+#blog .card-deck h5:hover,#blog .card-deck .card-footer .color-1e:hover
+{
+    color: #0078ff;
+}
+/*////////////////////////////////////////*/
+/*contact*/
+#contact
+{
+    background-image: url("../img/overlay-bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);  
+}
+#contact .layer
+{
+    background-color: rgba(0, 120, 255,0.7);
+}
+#contact .layer .row
+{
+    background-color: #ffffff;
+}
+#contact .layer .row h2::after
+{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+}
+#contact .layer .row form button
+{
+    border-radius: 5rem;
+    padding: .9rem 2.3rem;
+    font-size: 1.2rem;
+    background-color: #0078ff;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: all 500ms ease;
+}
+#contact .layer .row form button:hover
+{
+    background-color: #0062D3;
+    box-shadow: 0 0 0 5px #cde1f8;
+}
+#contact .layer .row .getin p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+#contact .layer .row .getin ul
+{
+    line-height: 2;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+#contact .layer .row .getin .info span
+{
+    color: #0078ff;
+    margin-right: 10px;
+}
+#contact .layer .row .getin .social
+{
+    overflow: auto;
+}
+#contact .layer .row .getin .social li
+{
+    float: left;
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #0078ff;
+    display: flex;
+    justify-content: center;
+    transition: all 500ms ease;
+    align-items: center;
+}
+#contact .layer .row .getin .social li:hover
+{
+    background-color: #0078ff;
+    color: #fff;
+    box-shadow: 0 0 0 3px #cde1f8;
+    transition: all 500ms ease;
+}
+/*/////////////////////////////////////////*/
+/*media*/
+@media (max-width:768px)
+{
+    header .intro h1
+    {
+        font-size: 50px;
+    }
+    header .intro p span
+    {
+        font-size: 20px;
+    }
+}
